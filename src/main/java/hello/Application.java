@@ -17,5 +17,8 @@ public class Application {
 	public String hello() {
 		return "Hello QDD";
 	}
-
+    @RequestMapping("/")
+	public String hello() {
+		return "Hello LGTM";
+	}
 }
