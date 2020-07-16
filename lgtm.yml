@@ -1,3 +1,2 @@
 queries:
   - include: java/useless-tostring-call
-  - include: "*"
