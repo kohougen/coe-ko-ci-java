@@ -17,5 +17,14 @@ public class Application {
 	public String hello() {
 		return "Hello QDD";
 	}
-
+    @RequestMapping("/lgtm")
+	public String helloLgtm() {
+		String a = "a";
+		String b = "b";
+		if (a == b.toString()) {
+			return "Impossible！";
+		} else {
+			return "Hello LGTM";
+		}
+	}
 }
