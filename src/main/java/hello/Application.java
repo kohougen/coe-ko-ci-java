@@ -21,7 +21,7 @@ public class Application {
 	public String helloLgtm() {
 		String a = "a";
 		String b = "b";
-		if (a == b) {
+		if (a == b.toString()) {
 			return "Impossible！";
 		} else {
 			return "Hello LGTM";
