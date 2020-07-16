@@ -24,6 +24,9 @@ public class Application {
 		if (a == b.toString()) {
 			return "Impossible！";
 		} else {
+			String name = "John Doe";
+			System.out.println("Hi, my name is " + name.toString());
+
 			return "Hello LGTM";
 		}
 	}
